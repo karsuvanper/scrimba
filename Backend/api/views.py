@@ -1,6 +1,8 @@
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
+#loading should be in json
+#response also should be in json
 
 @csrf_exempt
 def echo(request):  # Renamed to 'echo' to match your api/urls.py
